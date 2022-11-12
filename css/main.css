@@ -480,15 +480,15 @@ body {
   background-repeat: no-repeat;
 }
 
-.features {
+.cards-list {
   display: flex;
   gap: 30px;
 }
-.features__item {
+.cards-list__item {
   display: flex;
   flex-direction: column;
 }
-.features__icon {
+.cards-list__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -498,14 +498,14 @@ body {
   background: var(--icon-bacground-color);
   border-radius: 4px;
 }
-.features__title {
+.cards-list__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
 }
-.features__text {
+.cards-list__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -516,19 +516,19 @@ body {
   padding-top: 0;
 }
 
-.activity {
+.pictures-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.activity__item {
+.pictures-list__item {
   display: flex;
   width: calc((100% - 60px) / 3);
 }
-.activity__wrap {
+.pictures-list__wrap {
   position: relative;
 }
-.activity__text {
+.pictures-list__text {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -542,16 +542,16 @@ body {
   color: var(--activity-text-color);
 }
 
-.section-team {
+.section-peoples {
   padding: 94px;
   background-color: var(--section-team-color);
 }
 
-.team-list {
+.peoples-list {
   display: flex;
   gap: 30px;
 }
-.team-list__title {
+.peoples-list__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -559,7 +559,7 @@ body {
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
-.team-list__text {
+.peoples-list__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -567,13 +567,13 @@ body {
   color: var(--primary-text-color);
   margin-bottom: 16px;
 }
-.team-listt__item {
+.peoples-list__item {
   background: var(--bacground-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrap {
+.peoples-wrap {
   padding-top: 30px;
   padding-bottom: 30px;
 }
